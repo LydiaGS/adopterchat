@@ -40,3 +40,164 @@ input{
         background-color:	#FF1493;
     }
 }
+h1 {
+    text-align: center;
+    color:whitegit;
+    font-family: Courier New, monospace;
+    font-size: 80px;
+    font-size: 5.5em;
+    font-size: 5.5rem;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+h1:hover{
+  color: yellow;
+}
+* {box-sizing: border-box}
+.container {
+  position: relative;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px 0 30px 0;
+}
+input[type=submit] {
+    background-color:#556B2F;
+    color: white;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: 	#556B2F;
+  }
+  .col {
+    float: left;
+    width: 50%;
+    margin: auto;
+    padding: 0 50px;
+    margin-top: 6px;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .vl {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    border: 2px solid#6B8E23;
+    height: 175px;
+  }
+  .inner {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #6B8E23;
+    border: 1px solid #6B8E23;
+    border-radius: 50%;
+    padding: 8px 10px;
+  }
+  .hide-md-lg {
+    display: none;
+  }
+  .bottom-container {
+    text-align: center;
+    background-color: #6B8E23;
+    border-radius: 0px 0px 4px 4px;
+  }
+  @media screen and (max-width: 650px) {
+    .col {
+      width: 100%;
+      margin-top: 0;
+    }
+    .vl {
+      display: none;
+    }
+    .hide-md-lg {
+      display: block;
+      text-align: center;
+    }
+  }
+  span.copyright {
+      position: absolute;
+      width: 100%;
+      color:whitesmoke;
+      line-height: 40px;
+      font-size: 0.7em;
+      text-align: center;
+      bottom:0;
+  }
+  input[type=text], select, textarea {
+      width: 100%;
+      padding: 12px; 
+      border: 1px solid #ccc; 
+      border-radius: 4px; 
+      box-sizing: border-box; 
+      margin-top: 6px; 
+      margin-bottom: 16px; 
+      resize: vertical 
+    }
+    input[type=submit] {
+      background-color:	#6B8E23;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    input[type=submit]:hover {
+      background-color:		#556B2F;
+    }
+    .container {
+      border-radius: 5px;
+      background-color:#6B8E23;
+      padding: 20px;
+    }
+    h2{
+      color: #062b16;
+    }
+    .btn{
+      color:#062b16 ;
+  
+    }
+    #carte{
+      text-align: center;
+    }
+    .bouton{
+      text-align: center;
+    }
+    a{
+      text-align: center;
+      color: #062b16;
+      border-radius: 5px;
+      font-size: 30px;
+      font-family: Courier New, monospace;
+    }
+    h2{
+      text-align: center;
+      color:white;
+      font-family: Courier New, monospace;
+      font-size: 80px;
+      font-size: 3.5em;
+      font-size: 3.5rem;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+    }
+    h2:hover{
+      color:plum;
+    }
+    footer .pourcentage div {
+      display: flex;
+      justify-content: center;
+      border: solide black 3px;
+      height: 100%;
+      width: 100%;
+      background-color: black;
+  }
+  
+  footer .pourcentage div h1 {
+      margin-left: 150px;
+      text-align: center;
+      color: white;
+  }
